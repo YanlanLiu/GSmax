@@ -5,7 +5,7 @@ Created on Thu Jan 28 11:03:18 2021
 
 @author: yanlanliu
 
-Requires FLUEXNET2015 dataset to run
+Requires FLUEXNET2015 dataset and inverted stomatal conductance using Penmen-Monteith equation as inputs
 """
 
 
