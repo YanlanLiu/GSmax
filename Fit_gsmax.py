@@ -253,7 +253,6 @@ df['GSREF'] = GSREF
 df = df.loc[(~df['CanopyHeight'].isna()) & (~df['GSmax0'].isna())].reset_index()
 
 # Group SAV and WSA to SAV, group OSH and CSH to OSH
-#df['IGBP1'] = df['IGBP']
 df['IGBP'][df['IGBP']=='WSA'] = 'SAV'
 df['IGBP'][df['IGBP']=='CSH'] = 'OSH'
 df['IGBP'][df['IGBP']=='OSH'] = 'SHB'
